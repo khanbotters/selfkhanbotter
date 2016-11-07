@@ -1,0 +1,785 @@
+/*
+CSS Desktop MWB Islamic
+Name: CSS Islami Al-Qur'an
+Type: CSS Mobility
+Update: 28 Pebruari 2013
+Author: Fitz Freedom
+URL: www.hashirzone.heck.in
+Pesan: Pergunakan CSS ini sesuai Fungsinya.
+*/
+body {
+background-image: url("http://hashirzone.heck.in/files/1il7pd-1.gif");
+color: #00FF00;
+font : x-small Georgia Serif;
+font-size : small;
+color :#FF00FF;
+line-height : 160%;
+padding : 0;
+margin : 0;
+}
+body,#header{
+-webkit-animation:transform-translate 5s;
+-moz-animation:transform-translate 5s;
+-ms-animation:transform-translate 5s;
+-o-animation:transform-translate 5s;
+animation:transform-translate 5s;
+}
+a {
+color : #FF0000;
+text-decoration : none;
+}
+a:visited {
+color : #0000FF;
+text-decoration : none;
+}
+a img {
+border-width : 10px;
+}
+h1, h2, h3 {
+font-family : Arvo, serif;
+font-weight : 400;
+color : #2E9F13;
+margin : 0;
+padding : 0;
+}
+h1 {
+font-size : 2.4em;
+}
+h2 {
+font-size : 2em;
+}
+h3 {
+font-size : 1.6em;
+}
+p, ul, ol {
+margin-top : 0;
+line-height : 180%;
+}
+img.border {
+border : #00FF00 solid 1px;
+}
+img.alignleft {
+float : left;
+margin-right : 25px;
+}
+img.alignright {
+float : right;
+}
+img.aligncenter {
+margin : 0 auto;
+}
+#wrapper {
+margin : 0 auto;
+padding : 0;
+}
+#header-HASHIRZONE {
+background:url(http://hashirzone.heck.in/files/1il7pd-1.gif)repeat;
+box-shadow : 0 5px 12px rgba(255,0,255,0.3);
+height : 300px;
+width : 975px;
+margin : 0 auto;
+padding :0;
+}
+#header {
+width : 925px;
+height : 260px;
+margin :0 auto;
+padding : 10px 10px 10px;
+}
+#logo {
+width : 940px;
+height : 80px;
+font-family : Arvo, serif;
+color : #00FF00;
+margin : 0 auto;
+padding : 0;
+}
+#logo .heading, #logo .description {
+display : block;
+margin : 2px 0;
+padding : 2px 5px;
+}
+#logo .heading {
+letter-spacing : -1px;
+text-align : center;
+text-transform : uppercase;
+font-size : 24px;
+font-weight : 700;
+color : #FF00FF;
+margin : 0;
+}
+#logo .heading a {
+color : #FF0000;
+}
+#logo .heading a:hover {
+color : #0000FF;
+text-decoration:none;
+}
+#logo .description {
+text-align : center;
+text-transform : uppercase;
+font-family : Arvo, serif;
+font-size : 16px;
+color : #ccc;
+font-weight : 700;
+}
+#logo a {
+border : none;
+background : none;
+text-decoration : none;
+color : #0000FF;
+}
+#search {
+line-height : 56px;
+float : right;
+}
+#search-text {
+width : 250px;
+border : #FFFF00 solid 1px;
+background : #FF00FF;
+border-radius : 8px;
+text-transform : lowercase;
+font : normal normal 11px Arial, Helvetica, sans-serif;
+color : #FF00FF;
+box-shadow : 0 5px 12px rgba(0,255,0,0.3);
+padding : 8px 10px;
+}
+#search-submit {
+border : none;
+border-radius : 8px;
+font : normal normal 11px Arial, Helvetica, sans-serif;
+height : 30px;
+padding : 4px 10px;
+}
+#menu {
+background:url(http://hashirzone.heck.in/files/1il7pd-1.gif)repeat;
+width : 955px;
+height : 40px;
+box-shadow : 0 5px 12px rgba(0,255,0,0.3);
+margin : 0 auto;
+padding : 10px 10px;
+margin-top:-5px;
+padding-left:-1px;
+}
+#menu ul {
+list-style : none;
+line-height : normal;
+margin : -5px 0;
+padding : 0;
+}
+#menu li {
+float : left;
+}
+#menu a {
+background:none;
+display : block;
+float : left;
+height : 56px;
+line-height : 56px;
+letter-spacing : -1px;
+text-decoration : none;
+text-transform : uppercase;
+font-family : Arvo, serif;
+font-size : 14px;
+color : #0000FF;
+font-weight:bold;
+margin : 5px;
+padding : 0 20px 5px;
+}
+#menu .current_page_item a {
+background : none;
+color : #0000FF;
+}
+#page {
+width : 975px;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+background:url(http://hashirzone.heck.in/files/1il7pd-1.gif)repeat;
+margin : 0 auto;
+padding : 0;
+}
+#page-bgbtm {
+margin : 0;
+padding : 10px 10px 0;
+}
+#content {
+float : right;
+width : 640px;
+padding : 0;
+}
+.post:hover{
+color : #FFf;
+text-decoration : none;
+box-shadow : 0 0 20px white;
+border : green solid 1px;
+border-radius : 10px;
+background : url(http://ykub.xtgem.com/images/kupu.gif)bottom right no-repeat,url(http://ykub.xtgem.com/images/kupu.gif)repeat,black;
+-webkit-transform:scale(1.2);
+-moz-transform:scale(1.2);
+-o-transform:scale(1.2);
+-webkit-box-shadow:0px 0px 30px orange;
+-moz-box-shadow:0px 0px 30px orange}
+.post:before {
+content : url(http://nimbuzztrack.xtgem.com/images/New200%2018_1.gif);
+width : 70px;
+float : left;
+height : 45px;
+display : block;
+margin : 5px 5px 5px 5px;
+padding :0}
+.post .date {
+  display: block;
+  float: left;
+  width: 69px;
+  height: 64px;
+  margin: 7px 0 20px 0;
+  background: #FF0000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #00FF00;
+-moz-webkit-border-radius: 18px;
+ -webkit-border-radius: 18px;
+border-radius: 10px;
+-moz-webkit-box-shadow: 0px 0px 20px 1px #0000ff;
+-webkit-box-shadow: 0px 0px 20px 1px #0000ff;
+box-shadow: 0px 0px 20px 1px #FF00FF;
+}.post .title a:hover {color: #0000FF;
+  font-weight: bold;
+  text-shadow: 3px 2px 1px #FFF
+-moz-webkit-border-radius: 18px;
+ -webkit-border-radius: 18px;
+border-radius: 18px;
+-moz-webkit-box-shadow: 0px 0px 20px 1px #0000ff;
+-webkit-box-shadow: 0px 0px 20px 1px #0000ff;
+box-shadow: 0px 0px 20px 1px #0000ff;
+}.post {
+  padding: 10px 5px 20px 10px;
+  margin: 5px 5px 5px 5px;
+-moz-webkit-border-radius: 18px;
+ -webkit-border-radius: 18px;
+border-radius: 18px;
+-moz-webkit-box-shadow: inset 0px 0px 20px 1px #0000ff;
+-webkit-box-shadow: inset 0px 0px 20px 1px #00FF00;
+box-shadow: inset 0px 0px 20px 1px #FF0000;
+}
+.post .title {
+font-size : 1.6em;
+color : #00ff00;
+margin : 0;
+padding : 0}
+.post .title a {
+text-decoration : none;
+color : #00FF00}
+.post .title a:hover {
+text-decoration : none;
+color : #00ff00;
+font-weight : bold}
+.post .byline {
+margin-bottom : 2em}
+.post .entry {
+margin : 10px 10px 0 0}
+.post .entry2 {
+margin : 10px 10px 0 0}
+.post .entry p, .post .entry ol, .post .entry ul, .post .entry2 p, .post .entry2 ol, .post .entry2 ul {
+margin-bottom : 1.6em;
+line-height : 180%;
+list-style-position : inside}
+.post .links {
+height : 22px;
+padding : 5px 0 0 10px;
+background : none;
+clear : both;
+margin-top : 20px}
+.post .links a {
+text-decoration : none;
+font-weight : bold}
+.post .links a:hover {
+text-decoration : underline}
+.post .links .more {
+padding-left : 10px;
+background : none}
+.post .links .comments {
+height: 20px;
+padding-left : 20px;
+background : url(http://www.sevenoaksart.co.uk/images/butterflyangle.gif) 0 5px no-repeat}
+.post .links .rss }
+.links {
+display : block;
+width : 96px;
+background : none;
+text-align : center;
+text-transform : uppercase;
+font-size : 10px;
+color : #FF0000;
+padding : 2px 0;
+}
+#sidebar {
+float : left;
+width : 280px;
+color : #00FF00;
+margin : 0 0 0 5px;
+padding : 0;
+}
+#sidebar ul {
+list-style : none;
+margin : 0;
+padding : 0;
+}
+#sidebar li {
+margin : 0;
+padding : 0;
+}
+#sidebar li ul {
+background-image: url("http://hashirzone.heck.in/files/1il7pd-1.gif");
+border-left : #00FF00 solid 1px;
+border-bottom :#FFFF00 solid 1px;
+border-right : #FF00FF solid 1px;
+border-radius : 0 0 8px 8px;
+box-shadow : 0 5px 12px rgba(0,0,255,0.3);
+margin : 0 0 10px;
+padding : 2px;
+}
+#sidebar li li {
+padding-left : 10px;
+margin-bottom : 4px;
+line-height : 16px;
+border-bottom : 1px dotted #00FFFF;
+}
+#sidebar li li span {
+display : block;
+margin-top : -20px;
+font-size : 10px;
+font-style : italic;
+padding : 0;
+}
+#sidebar h3 {
+height : 38px;
+border-left : #FF00FF solid 1px;
+border-top : #00FF00 solid 1px;
+border-right : #FF0000 solid 1px;
+text-transform : uppercase;
+font-size : 20px;
+color : #fff;
+background : #000;
+border-radius : 8px 8px 0 0;
+margin:0 auto;
+padding : 12px 0 0 6px;
+}
+text-align : justify;
+margin : 0;
+padding : 0 20px 20px;
+}
+#sidebar a {
+border : none;
+color : #000;
+}
+#calendar_wrap {
+padding : 20px;
+}
+#calendar table {
+width : 100%;
+}
+#calendar tbody td {
+text-align : center;
+}
+#calendar #next {
+text-align : right;
+}
+#footer {
+background:url(http://hashirzone.heck.in/files/1il7pd-1.gif)repeat;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+width : 975px;
+height : 85px;
+font : x-small Georgia Serif;
+font-size : small;
+text-align : center;
+color : #ccc;
+font-weight:bold;
+margin : 0 auto;
+padding : 0;
+}
+#footer p {
+line-height : normal;
+color : #ccc;
+font-weight : 700;
+margin : 0;
+padding : 0 10px;
+}
+#footer a {
+color : #ccc;
+font-weight : 700;
+}
+#footer:after {
+content : "Modify by Muhammad Ismail Haider.";
+display : block;
+color : #ccc;
+font : x-small Georgia Serif;
+font-size : small;
+font-weight:bold;
+}
+#footer:before {
+content : "Designed By MALIK ALI SHIKRA";
+font-weight:bold;
+display : block;
+color : #ccc;
+font : x-small Georgia Serif;
+font-size : small;
+}
+#pagination_links {
+font-size : 18px;
+text-align : center;
+padding-bottom : 10px;
+}
+#pagination_links span {
+display : inline-block;
+background : #2eff2e;
+margin-top : 2px;
+color : #000;
+border : #111 solid 1px;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+padding : 8px;
+}
+#pagination_links a {
+background : #000;
+color : #ccc;
+display : inline-block;
+margin-top : 2px;
+text-decoration : none;
+border : #999 solid 1px;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+padding : 8px;
+}
+#pagination_links a:hover {
+text-decoration : none;
+background : #2eff2e;
+color : #000;
+border : #111 solid 1px;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+}
+.no-link, .no-link:hover {
+text-decoration : none;
+color : inherit;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+}
+#ad {
+width : 600px;
+background-color : #2eff2e;
+height : 15px;
+overflow : hidden;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+margin : 0 auto;
+}
+.messages, .highlight {
+background-color : #2eff2e;
+color:#fff;
+border : solid 1px;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+margin : 10px 0;
+padding : 15px 10px 15px 15px;
+}
+.messages {
+color : #fff;
+background-color : #2eff2e;
+list-style : none;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+border-color : #555;
+}
+.highlight {
+color : #fff;
+background-color : #2eff2e;
+text-align : center;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+border-color : #555;
+}
+.inp-text {
+width : 400px;
+color : #000;
+background-color : #2eff2e;
+border : #555 solid 1px;
+margin : 0;
+padding : 4px;
+}
+.inp-textarea {
+width : 400px;
+height : 200px;
+color : #000;
+background : url(http://www.sevenoaksart.co.uk/images/butterflyangle.gif) center bottom no-repeat #514C18;
+border : #555 solid 1px;
+}
+.inp-textarea:hover {
+background : url(http://bestanimations.com/Animals/Insects/Butterflys/butterfly-animated-gif-1.gif)center no-repeat #514C18;
+color : #000;
+text-decoration : none !important ;
+}
+#comments {
+background : #2eff2e;
+max-height : 820px;
+overflow : auto;
+width : 625px;
+border : rgba(255, 255, 255, 0.03) solid 1px;
+border-radius:8px 0 0 8px;
+border-top : #ccc solid 1px;
+border-bottom : #ccc solid 1px;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+border-left:#ccc solid 1px;
+margin : 0 5px;
+padding : 0;
+}
+#comments h3 {
+font-size : 16px;
+text-transform : uppercase;
+text-align : center;
+font-family : "lucida grande", tahoma, verdana, arial, sans-serif;
+background : #121212;
+border-top : #ccc solid 1px;
+border-bottom : #ccc solid 1px;
+color : #00ff00;
+padding : 10px;
+}
+#comments h4 {
+font-size : 16px;
+margin : 0;
+padding : 5px 10px;
+}
+.comment {
+color : #000;
+background-color : #00ff00;
+border-radius:8px;
+border : #000 solid 1px;
+box-shadow : 0 5px 12px rgba(0, 0, 0, 0.7);
+margin : 5px 10px;
+padding : 5px;
+}
+.comment h5 {
+margin : 0 5px;
+}
+.comment p {
+margin : 0;
+padding : 5px;
+}
+.comment a {
+font-size : 15px;
+color : #000;
+font-weight : bolt;
+margin : 0 auto;
+padding : 0;
+}
+#comment.inp-btn {
+border : #555 solid 1px;
+background-color : #00ff000;
+color : #fff;
+margin : 6px 0 0;
+padding : 5px;
+}
+#comment.inp-btn:hover, .inp-text:hover {
+background : #ff8000;
+box-shadow : 1px 1px 5px #ccc;
+}
+#comment_form {
+text-align : center;
+padding : 15px;
+background:#000;
+color:#fff;
+border-radius:0 0 0 8px;
+border:none;
+}
+#comment_form:after {
+content : "Designed by MALIK ALI SHIKRA.";
+background:none;
+display : block;
+text-align : center;
+color : #555;
+font-weight : bold;
+margin : 5px;
+padding : 0;
+/* Sidebar */
+
+#sidebar:before {content:"Navigation";
+   padding:5px;
+margin:0;
+   font-size: 20px;text-align:center;color:#fff;text-shadow: 0 0 10px #fff;border:1px solid #000;background: #000 url(http://trisnakz.uiwap.com/css/seo/bs.png)no-repeat; background-size:100% 100%;border-radius: 10px 10px 0px 0px;display:block;}
+
+#sidebar:after {content:"Seo Friedly";display:block;border-radius: 0px 0px 10px 10px;
+border:1px solid #000;
+   width: 95%;text-align:center;
+background: #000 url(http://trisnakz.uiwap.com/css/seo/bs.png); background-size:100% 100%; }
+
+#sidebar
+ {
+   width: 93%;margin:10px;
+color:#fff;background:#111;
+   padding: 10px 10px 10px 10px; border:1px solid red; border-radius:15px 15px 15px 15px;
+}
+
+
+
+#sidebar h1, #sidebar h3 {
+   padding:5px;
+margin:0;
+   font-size: 20px;text-align:center;color:red;text-shadow: 0 0 5px #fff;border:1px solid #000;background: #000 url(http://trisnakz.uiwap.com/css/Mobmod/bs55.png)top repeat-x;border-radius: 10px 10px 0px 0px;
+}
+
+#sidebar h4, #sidebar h5, #sidebar h6 { color:#000; border:1px solid red;margin:5px;background:#000 url(http://trisnakz.uiwap.com/css/Mobmod/bs99.png) top repeat-x;background-size: 100% 100%;}
+
+#sidebar ul {
+   margin: 0;
+   padding: 5px;
+   list-style: none;
+}
+
+#sidebar li {
+   margin: 0;
+   padding: 0;background:#000 url(http://trisnakz.uiwap.com/css/Mobmod/bs99.png) top repeat-x;background-size: 100% 100%;}
+}
+
+#sidebar li ul {
+   margin: 0px 0px;
+   padding-bottom: 30px;
+}
+
+#sidebar li li {
+   padding-left: 0; border:1px solid red;
+   margin:5px;
+   line-height: 25px;
+}
+
+#sidebar li li span {
+   display: block;
+   margin: 0 auto;
+   padding: 0;
+   font-size: 11px;
+   font-style: italic;
+}
+
+
+#sidebar p {
+   margin: 0 0px;
+   padding: 0px 20px 20px 20px;
+   text-align: justify; color:#000;
+}
+
+#sidebar a {color:red;margin:5px;
+}
+
+
+#content:after {
+content : "Designed by MALIK ALI SHIKRA)";
+width : 630px;
+display : block;
+text-align : center;
+color : #EED146;
+font-weight : bold;
+background : none
+margin : 0 10px 0;
+padding : 0 5px;
+}
+a:hover,#sidebar a:hover,.post .title a:hover,.post .meta a:hover, #footer a:hover {
+text-decoration : none;
+color : #ff00ff;
+}
+#menu a:hover{
+background:#000;
+text-decoration : none;
+color : #2eff2e;
+font-weight:bold;
+}
+.comment a:hover{
+text-decoration : none;
+color : #ff8000;
+}
+body:before {
+content : url(http://images2.fanpop.com/images/photos/8200000/Butterfly-butterflies-8272369-452-150.gif);
+position : fixed;
+top : 0;
+right : 100px;
+clip : inherit;
+}
+body:after {
+content : url(http://ykub.xtgem.com/images/kupu.gif);
+position : fixed;
+bottom : 575px;
+left : 100px;
+clip : inherit;
+}
+.post:hover{
+background:url(http://bestanimations.com/Animals/Insects/Butterflys/butterfly-animated-gif-1.gif)center
+}
+#following_list h3,#blogroll_list h3,.post .title,#footer:before, #logo .heading a,#footer:after,#comment_form:after,#content:after {
+animation : fitzfreedomx 5s linear infinite;
+}
+@keyframes fitzfreedom {
+from {
+transform : scale(0.1);
+}
+to {
+transform : scale(1.0);
+}
+}
+@-webkit-keyframes transform-translate{
+  from{-webkit-transform:translate(0px,1000px)}
+  to{-webkit-transform:translate(0px,0px)}
+}
+@-moz-keyframes transform-translate{
+  from{-moz-transform:translate(0px,1000px)}
+  to{-moz-transform:translate(0px,0px)}
+}
+@-ms-keyframes transform-translate{
+  from{-ms-transform:translate(0px,1000px)}
+  to{-ms-transform:translate(0px,0px)}
+}
+@-o-keyframes transform-translate{
+  from{-o-transform:translate(0px,1000px)}
+  to{-o-transform:translate(0px,0px)}
+}
+@keyframes transform-translate{
+  from{transform:translate(0px,1000px)}
+  to{transform:translate(0px,0px)}
+}
+@-webkit-keyframes fitzfreedomx {
+0% {color:red}
+20% {color:white}
+40% {color:blue}
+60% {color:yellow}
+80% {color:aqua}
+100% {color:white}
+}
+@-moz-keyframes fitzfreedomx {
+0% {color:red}
+20% {color:white}
+40% {color:blue}
+60% {color:yellow}
+80% {color:aqua}
+100% {color:white}
+}
+@-keyframes fitzfreedomx {
+0% {color:red}
+20% {color:white}
+40% {color:blue}
+60% {color:yellow}
+80% {color:aqua}
+100% {color:white}
+}
+#content:before{
+content:url(http://indcyber-art.heck.in/files/day.png);
+background:#000;
+border-radius : 8px;
+display:block;
+text-align:center;
+margin-bottom:5px;
+
+}
+img {
+transition : all 0.8s ease-in-out;
+}
+img:hover {
+transform : rotate(360deg);
+}
+#back2top {
+float : left;
+position : fixed;
+top : 450px;
+left : 2px;
+margin-left : 10px;
+}
+
+.comment-content:first-letter {float:center;margin:0px 1px; font-size:30px;color:red;text-align:center; text-shadow:orange 2px 1px 1px;}
