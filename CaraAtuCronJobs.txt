@@ -1,0 +1,9 @@
+Assalamu'alaikum Wr.Wb
+
+Pada Kesempatan ini Master Muhammad Amin ingin berbagi Script Bot Token.
+Cara Atur CronJobs nya adalah, Edit Bagian CronCoday.php
+
+dan atur 10 menit biar kena BLOCK fb mu :D bercanda gan. atur 15 menit aja.
+
+Jangan lupa add fb admin : fb.com/amin.programer
+follow @Amin_Kandangan.

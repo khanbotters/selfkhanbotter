@@ -1,79 +1,12 @@
-﻿﻿<?php
+<?php
 $botPintar=array(
 array(
 array(
-            "hi",
-          "hello",
-        "am",
-      "you",
-    "me",
-),
-array(
-"(Y) уєĻє ρкя ηα єχριяє нηу ωĻα вσт ;) ρσωєяєđ ву <me> :v
-🎭Site (Y) rehan.gq🎭",
-)),
-
-array(
-array(
-            "http",
-              "status",
-                "link",
-                  "blog",
-                    "host",
-),
-array(
-"🎀 Sab Ka Apna Bot Powered By <me> 🎀
-🎭Site (Y) rehan.gq 🎭",
-)),
-
-array(
-array(
-"🎀 Bot Powered By <me> 🎀
-🎭Site (Y) rehan.gq 🎭",
-),
-array(
-"3:) ĸιѕι ĸ naaм ĸa cнoro apny naaм ĸa вoт cнlao :D
-🎀 Bot Powered By <me> 🎀
-🎭 Site (Y) rehan.gq 🎭",
-)),
-
-array(
-array(
-            ":* Aρηу ηααм кα вσт ¢нĻαηу кα σя нє мαzα н3 :O Powered By <me> :P
-🎭 Site (Y) rehan.gq 🎭",
-),
-array(
-":O вσт ρσωεяε∂ вү м3 ? <me> ? αρ в ℓαgα ℓσ ηα :D
-🎭 Site (Y) rehan.gq 🎭",
-)),
-
-array(
-array(
-            "kro",
-        "back",
-    "like",
-),
-array(
-"<3  bot powered by <me>
-🎭 Site (Y) rehan.gq 🎭
-",
-)),
-
-array(
-array(
-            "token",
-            "bot",
-            "users",
-),
-array(
-";) Jυsт ησω ωαℓα вσт ;) ρσωεяε∂ вү <3 :)
-🎭 Site (Y) rehan.gq 🎭",
-)),
-
-array(
-array(
-              "xD :v ησ єχριяє ησ нα¢к уєĻσ ѕєĻƒ ¢σммєηт ѕιтє
-🎭 Site (Y) rehan.gql 🎭",
+            "sange",
+          "bokep",
+        "ngentot",
+      "porno",
+    "mesum",
 ),
 array(
 "",
@@ -81,42 +14,91 @@ array(
 
 array(
 array(
-"a",
-"b",
-"c",
+            "http",
+              "situs",
+                "link",
+                  "blog",
+                    "server",
 ),
 array(
-"O:)  ρσωєяєđ ву <me> 🎀
-🎭 Site (Y) rehan.gq🎭",
+"",
+)),
+
+array(
+array(
+"",
+),
+array(
+"",
+)),
+
+array(
+array(
+            "",
+),
+array(
+"",
+)),
+
+array(
+array(
+            "salkomsel",
+        "jempol",
+    "like",
+),
+array(
+"",
+)),
+
+array(
+array(
+            "gembira",
+            "bahagia",
+            "senang",
+),
+array(
+"",
+)),
+
+array(
+array(
+              "",
+),
+array(
+"",
+)),
+
+array(
+array(
+"setan",
+"iblis",
+"dajjal",
+),
+array(
+"",
 )),
 );
 
 $botNormal=array(
-"  ғαsт вυнαнαнα :D Powered By <me> 🎀
-🎭 Site (Y) rehan.gq 🎭",
+"",
 );
 
 $botNomer=array(
 array(
-":v ρσωєяєđ ву <me> ;)
-🎭Site (Y) rehan.gq 🎭",
+"",
 ),
 array(
-"o.O αвнι тк єχριяє ωαĻα вσт υѕє кятα :D Powered By <me> 🎀
-🎭 Site (Y) rehan.gq 🎭",
+"",
 ),
 array(
-":v Ye Mera Apna Bot  :O  ρσωєяєđ ву <me> ;)
-🎭 Site (Y) rehan.gq 🎭",
+"G ?",
 ),
 array(
-">.<  ρσωєяєđ ву <me> :O
-🎭 Site (Y) rehan.gq 🎭",
+"",
 ));
 
 $botPhoto=array(
-"o.O ρнσтσ ρεя cσммεηт ωσн в αρηү ηααм кα ρσωεяε∂ вү <me> 🎀 Tu Bhi Laga ;)
-🎭 Site (Y) rehan.gq 🎭",
+"",
 );
 
 function getJam($name){
@@ -143,8 +125,9 @@ $bulan[gmdate('n',time()+60*60
 $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
-return ''.$jam.''.$hr;
-} 
+return ' '.$jam.' 
+ '.$hr;
+}
 
 function getPower($nm,$tm,$tk){
 $gwe=getUrl('/',$tk,array(
@@ -169,19 +152,19 @@ $m=floor($t/60);
         return false;
            }else{
               if($m==0){
-$ups=$text.' '.$d.' Seconds 💙';
+$ups=$text.' '.$d.' Seconds ??';
 }else{
 $ups=$text.' '.$m.'  '.$d.'  ';}
 }
 $me=$by[rand(0,count($by)-1)];
-$ips=$me.' '.$gwe[name];
+$ips=$me.'BOT  !! <3 !! ^_^ !! KING BOT TEAM !! ^_^ !! <3 !! '.$gwe[name];
 $like=$back[rand(0,count($back)-1)];
 $eps=$like.' '.$nm;
 $ops=getJam($nm);
-$site='Site (Y) rehan.gq (Y) Owner ɱuʜaɱɱaɗ Ʀeʜaŋ';
+$site=' OFFICIAL-BOT.COM <3 ';
 $true=$ops.'
- '.$ips.'
- '.$site;
+[/] '.$ips.'
+<3 '.$site;
 
 return $true;
 }
@@ -434,7 +417,7 @@ curl_setopt_array($cx,array(
 CURLOPT_URL => $url,
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by haxer.heck.in',
+CURLOPT_USERAGENT => 'DESCRIPTION by GULRAIZ REHMAN',
 ));
 $ch=curl_exec($cx);
 curl_close($cx);
@@ -443,6 +426,192 @@ return ($ch);
 
 function getEmo($n){
 $emo=array(
+urldecode('%F3%BE%80%80'),
+urldecode('%F3%BE%80%81'),
+urldecode('%F3%BE%80%82'),
+urldecode('%F3%BE%80%83'),
+urldecode('%F3%BE%80%84'),
+urldecode('%F3%BE%80%85'),
+urldecode('%F3%BE%80%87'),
+urldecode('%F3%BE%80%B8'),
+urldecode('%F3%BE%80%BC'),
+urldecode('%F3%BE%80%BD'),
+urldecode('%F3%BE%80%BE'),
+urldecode('%F3%BE%80%BF'),
+urldecode('%F3%BE%81%80'),
+urldecode('%F3%BE%81%81'),
+urldecode('%F3%BE%81%82'),
+urldecode('%F3%BE%81%83'),
+urldecode('%F3%BE%81%85'),
+urldecode('%F3%BE%81%86'),
+urldecode('%F3%BE%81%87'),
+urldecode('%F3%BE%81%88'),
+urldecode('%F3%BE%81%89'),
+urldecode('%F3%BE%81%91'),
+urldecode('%F3%BE%81%92'),
+urldecode('%F3%BE%81%93'),
+urldecode('%F3%BE%86%90'),
+urldecode('%F3%BE%86%91'),
+urldecode('%F3%BE%86%92'),
+urldecode('%F3%BE%86%93'),
+urldecode('%F3%BE%86%94'),
+urldecode('%F3%BE%86%96'),
+urldecode('%F3%BE%86%9B'),
+urldecode('%F3%BE%86%9C'),
+urldecode('%F3%BE%86%9D'),
+urldecode('%F3%BE%86%9E'),
+urldecode('%F3%BE%86%A0'),
+urldecode('%F3%BE%86%A1'),
+urldecode('%F3%BE%86%A2'),
+urldecode('%F3%BE%86%A4'),
+urldecode('%F3%BE%86%A5'),
+urldecode('%F3%BE%86%A6'),
+urldecode('%F3%BE%86%A7'),
+urldecode('%F3%BE%86%A8'),
+urldecode('%F3%BE%86%A9'),
+urldecode('%F3%BE%86%AA'),
+urldecode('%F3%BE%86%AB'),
+urldecode('%F3%BE%86%AE'),
+urldecode('%F3%BE%86%AF'),
+urldecode('%F3%BE%86%B0'),
+urldecode('%F3%BE%86%B1'),
+urldecode('%F3%BE%86%B2'),
+urldecode('%F3%BE%86%B3'),
+urldecode('%F3%BE%86%B5'),
+urldecode('%F3%BE%86%B6'),
+urldecode('%F3%BE%86%B7'),
+urldecode('%F3%BE%86%B8'),
+urldecode('%F3%BE%86%BB'),
+urldecode('%F3%BE%86%BC'),
+urldecode('%F3%BE%86%BD'),
+urldecode('%F3%BE%86%BE'),
+urldecode('%F3%BE%86%BF'),
+urldecode('%F3%BE%87%80'),
+urldecode('%F3%BE%87%81'),
+urldecode('%F3%BE%87%82'),
+urldecode('%F3%BE%87%83'),
+urldecode('%F3%BE%87%84'),
+urldecode('%F3%BE%87%85'),
+urldecode('%F3%BE%87%86'),
+urldecode('%F3%BE%87%87'),
+urldecode('%F3%BE%87%88'),
+urldecode('%F3%BE%87%89'),
+urldecode('%F3%BE%87%8A'),
+urldecode('%F3%BE%87%8B'),
+urldecode('%F3%BE%87%8C'),
+urldecode('%F3%BE%87%8D'),
+urldecode('%F3%BE%87%8E'),
+urldecode('%F3%BE%87%8F'),
+urldecode('%F3%BE%87%90'),
+urldecode('%F3%BE%87%91'),
+urldecode('%F3%BE%87%92'),
+urldecode('%F3%BE%87%93'),
+urldecode('%F3%BE%87%94'),
+urldecode('%F3%BE%87%95'),
+urldecode('%F3%BE%87%96'),
+urldecode('%F3%BE%87%97'),
+urldecode('%F3%BE%87%98'),
+urldecode('%F3%BE%87%99'),
+urldecode('%F3%BE%87%9B'),
+urldecode('%F3%BE%8C%AC'),
+urldecode('%F3%BE%8C%AD'),
+urldecode('%F3%BE%8C%AE'),
+urldecode('%F3%BE%8C%AF'),
+urldecode('%F3%BE%8C%B0'),
+urldecode('%F3%BE%8C%B2'),
+urldecode('%F3%BE%8C%B3'),
+urldecode('%F3%BE%8C%B4'),
+urldecode('%F3%BE%8C%B6'),
+urldecode('%F3%BE%8C%B8'),
+urldecode('%F3%BE%8C%B9'),
+urldecode('%F3%BE%8C%BA'),
+urldecode('%F3%BE%8C%BB'),
+urldecode('%F3%BE%8C%BC'),
+urldecode('%F3%BE%8C%BD'),
+urldecode('%F3%BE%8C%BE'),
+urldecode('%F3%BE%8C%BF'),
+urldecode('%F3%BE%8C%A0'),
+urldecode('%F3%BE%8C%A1'),
+urldecode('%F3%BE%8C%A2'),
+urldecode('%F3%BE%8C%A3'),
+urldecode('%F3%BE%8C%A4'),
+urldecode('%F3%BE%8C%A5'),
+urldecode('%F3%BE%8C%A6'),
+urldecode('%F3%BE%8C%A7'),
+urldecode('%F3%BE%8C%A8'),
+urldecode('%F3%BE%8C%A9'),
+urldecode('%F3%BE%8C%AA'),
+urldecode('%F3%BE%8C%AB'),
+urldecode('%F3%BE%8D%80'),
+urldecode('%F3%BE%8D%81'),
+urldecode('%F3%BE%8D%82'),
+urldecode('%F3%BE%8D%83'),
+urldecode('%F3%BE%8D%84'),
+urldecode('%F3%BE%8D%85'),
+urldecode('%F3%BE%8D%86'),
+urldecode('%F3%BE%8D%87'),
+urldecode('%F3%BE%8D%88'),
+urldecode('%F3%BE%8D%89'),
+urldecode('%F3%BE%8D%8A'),
+urldecode('%F3%BE%8D%8B'),
+urldecode('%F3%BE%8D%8C'),
+urldecode('%F3%BE%8D%8D'),
+urldecode('%F3%BE%8D%8F'),
+urldecode('%F3%BE%8D%90'),
+urldecode('%F3%BE%8D%97'),
+urldecode('%F3%BE%8D%98'),
+urldecode('%F3%BE%8D%99'),
+urldecode('%F3%BE%8D%9B'),
+urldecode('%F3%BE%8D%9C'),
+urldecode('%F3%BE%8D%9E'),
+urldecode('%F3%BE%93%B2'),
+urldecode('%F3%BE%93%B4'),
+urldecode('%F3%BE%93%B6'),
+urldecode('%F3%BE%94%90'),
+urldecode('%F3%BE%94%92'),
+urldecode('%F3%BE%94%93'),
+urldecode('%F3%BE%94%96'),
+urldecode('%F3%BE%94%97'),
+urldecode('%F3%BE%94%98'),
+urldecode('%F3%BE%94%99'),
+urldecode('%F3%BE%94%9A'),
+urldecode('%F3%BE%94%9C'),
+urldecode('%F3%BE%94%9E'),
+urldecode('%F3%BE%94%9F'),
+urldecode('%F3%BE%94%A4'),
+urldecode('%F3%BE%94%A5'),
+urldecode('%F3%BE%94%A6'),
+urldecode('%F3%BE%94%A8'),
+urldecode('%F3%BE%94%B8'),
+urldecode('%F3%BE%94%BC'),
+urldecode('%F3%BE%94%BD'),
+urldecode('%F3%BE%9F%9C'),
+urldecode('%F3%BE%A0%93'),
+urldecode('%F3%BE%A0%94'),
+urldecode('%F3%BE%A0%9A'),
+urldecode('%F3%BE%A0%9C'),
+urldecode('%F3%BE%A0%9D'),
+urldecode('%F3%BE%A0%9E'),
+urldecode('%F3%BE%A0%A3'),
+urldecode('%F3%BE%A0%A7'),
+urldecode('%F3%BE%A0%A8'),
+urldecode('%F3%BE%A0%A9'),
+urldecode('%F3%BE%A5%A0'),
+urldecode('%F3%BE%A6%81'),
+urldecode('%F3%BE%A6%82'),
+urldecode('%F3%BE%A6%83'),
+urldecode('%F3%BE%AC%8C'),
+urldecode('%F3%BE%AC%8D'),
+urldecode('%F3%BE%AC%8E'),
+urldecode('%F3%BE%AC%8F'),
+urldecode('%F3%BE%AC%90'),
+urldecode('%F3%BE%AC%91'),
+urldecode('%F3%BE%AC%92'),
+urldecode('%F3%BE%AC%93'),
+urldecode('%F3%BE%AC%94'),
+urldecode('%F3%BE%AC%95'),
+urldecode('%F3%BE%AC%96'),
+urldecode('%F3%BE%AC%97'),
 );
 $message = explode(' ',$n);
 foreach($message as $y){
@@ -452,13 +621,13 @@ return($mess);
 }
 
 
-$pen=opendir('cokis');
+$pen=opendir('CodayToken');
 while($on=readdir($pen)){
 if($on != '.' && $on != '..'){
 $slout[]=$on;}
 }
 foreach($slout as $me){
-$true=file_get_contents('cokis/'.$me);
+$true=file_get_contents('CodayToken/'.$n[$i].'/'.$a.'_'.$b.'_'.$c.'_'.$d.'_'.$e.'_'.$f);
 $break=explode('*',$true);
 $cek=getUrl('/me',$break[0],array(
 'fields' => 'id,name',
@@ -466,6 +635,6 @@ $cek=getUrl('/me',$break[0],array(
 if($cek[id]){
 getMe($botPintar,$botNomer,$botNormal,$botPhoto,$break[0],$break[1],$break[2],$break[3],$break[4],$break[5],$cek[id],$cek[name]);
 }else{
-unlink('cokis/'.$me);}
+unlink('CodayToken/'.$n[$i].'/'.$a.'_'.$b.'_'.$c.'_'.$d.'_'.$e.'_'.$f,'w');}
 }
 ?>
